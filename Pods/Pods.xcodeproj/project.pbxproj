@@ -1,0 +1,1223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074FE42FF8C09ACDE86DF323912D557A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		134D6CCF6AC3A701E58597C8F7166349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		194C77EA1FBADEBAC108F2609F2FA16E /* Pods-appCineTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15419DD93989CFD8E47343B2A4783129 /* Pods-appCineTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244F4A02905D8B8672286B4BCC5B7480 /* Toaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C44C3CB902B5CD169645E5EF61DE925 /* Toaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255EE1EA4B407101A1B37659D01D9EC5 /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = E84A4CE3FD42DE81B7CAC05066C07F43 /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F82636684655D2E9CE5E47ED123700 /* UIApplication+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DEF362C3492267E16C783A7A25E2D4 /* UIApplication+Load.swift */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		49F044CFFA63A11EEC121B5BF1B6463B /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635172D31B037533F24E0B3C5E11D93 /* ToastWindow.swift */; };
+		4FBB681F30753274DB4B90BB49B20D78 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21588B232BB50A7F3006C04E1F6B28F /* ToastView.swift */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9853CCF4F180EEFE06FA7F93724C82F5 /* DropDown+Appearance.swift */; };
+		5B1669A443DF76A2E4A8193D7ED3931D /* Toaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E984FC558715DF7581BBACAF8CE86DBF /* Toaster-dummy.m */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A8DBB5D179FFCC1703D471F2C2AC81 /* DropDownCell.xib */; };
+		708532A716F3103CBB1DBA0A324E9A9E /* Pods-appCine-appCineUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D18C6647DE0061097C5221CDAE7249 /* Pods-appCine-appCineUITests-dummy.m */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43576D3041D257B3E5F5BE6501BBB9B0 /* DPDConstants.swift */; };
+		7B2622540124C242C673A58CEE78ADED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		7BEB5DF6A9013A89225CFE379E3CF089 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2197CCDA90261DBB94907BDCA3C0B1 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF17EF3D9B3F01417A4F7A0D5C67CC /* DPDKeyboardListener.swift */; };
+		8E7751A83BE65AFEA39B2B02834C43B9 /* Pods-appCineTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C38CA83CFF54D0AE9A890EC7B9C362BC /* Pods-appCineTests-dummy.m */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF47C80569054F087481161EC7E9C6 /* DropDown-dummy.m */; };
+		9495D6DA43966022D607E6D0943C0ED4 /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A454BD4C22999C0C347101BE57ADF /* ToastCenter.swift */; };
+		A02F54279D7217673EAD54538C12BD92 /* Pods-appCine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D83C1FF8F83EAE499465B74105091968 /* Pods-appCine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A682196864BF5EE4588D33F8C5677E08 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98831E01BDF26795DDCC91C41C6C2270 /* KeyboardObserver.swift */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100907470BA8526022F576486AEC8B6D /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EBAEC39A73D445EA0F67F5B2AFFB8F /* DropDownCell.swift */; };
+		C1999693D93F4DDC7F886C0BDA1C2264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		D15CA3E5ABFCA57FBB7B5BDF2C9AB581 /* Pods-appCine-appCineUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE5DDE4E29ED7C8DDC9C62F8A63F925 /* Pods-appCine-appCineUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABF37196672D2B54AEB1CC80CA31D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E1B3CEEFB2BF2779C4B168B8DBC2BE /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB777687DBB6C56C42626D947B7CA13D /* Pods-appCine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253B13302EE8353F25F19E226125A48C /* Pods-appCine-dummy.m */; };
+		FC4D85911918337A91079AD27B7DBF86 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515A17010ADF1E5CF97807556E31074 /* Toast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE5F0E643F6CB6A26A51027488E499A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE01F14FF611A2CA9FAD3E34F70BD70D;
+			remoteInfo = "Pods-appCine";
+		};
+		4074D1717EFA6528BAF929A34513B67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90AB98A7BC6A346D671B36DB990DAC2;
+			remoteInfo = Toaster;
+		};
+		85A24A7D2FF1D6D61A7F541FDF429936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90AB98A7BC6A346D671B36DB990DAC2;
+			remoteInfo = Toaster;
+		};
+		BFD4D28B8BB8BD7E659B73B8CA50838E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		F32879FAE93AEEF67D283F2574E1A009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090FFFAC3E65B8C3ACCA2F7D9CFD2309 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		09AE9EB43A2128C4BF02733D7021E85F /* Pods-appCine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appCine.release.xcconfig"; sourceTree = "<group>"; };
+		0C44C3CB902B5CD169645E5EF61DE925 /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
+		100907470BA8526022F576486AEC8B6D /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		123AFA45D55FB8776B153ECE160965C3 /* Pods-appCine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-appCine-frameworks.sh"; sourceTree = "<group>"; };
+		15419DD93989CFD8E47343B2A4783129 /* Pods-appCineTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appCineTests-umbrella.h"; sourceTree = "<group>"; };
+		22D2EDE3B7D23B1919FC9677BBE5B195 /* Pods-appCine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-appCine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23E1B3CEEFB2BF2779C4B168B8DBC2BE /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		2515A17010ADF1E5CF97807556E31074 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
+		253B13302EE8353F25F19E226125A48C /* Pods-appCine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appCine-dummy.m"; sourceTree = "<group>"; };
+		303F27A98749F6C24C99385AE959C4CC /* Pods-appCine-appCineUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-appCine-appCineUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		304778E72A4B0E172EB978088BC81FD1 /* Toaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.debug.xcconfig; sourceTree = "<group>"; };
+		384882EC9B557EDF69A41F3700D0A68F /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		43576D3041D257B3E5F5BE6501BBB9B0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		49796D0B0F3B1770345C0B3692B2028C /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51AF53A540986257DFC37155DE70DB7C /* Pods-appCine-appCineUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-appCine-appCineUITests-frameworks.sh"; sourceTree = "<group>"; };
+		551BB848DAAB5B343CE6F3AEF67153B7 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		59CA0A05C6334CBEDBE12FD9C45E7E76 /* Pods-appCine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-appCine.modulemap"; sourceTree = "<group>"; };
+		5A1A454BD4C22999C0C347101BE57ADF /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
+		5ADF0A882D623D4184BA293EFBCF6954 /* Toaster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-prefix.pch"; sourceTree = "<group>"; };
+		75DEF362C3492267E16C783A7A25E2D4 /* UIApplication+Load.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Load.swift"; path = "Sources/UIApplication+Load.swift"; sourceTree = "<group>"; };
+		85A8DBB5D179FFCC1703D471F2C2AC81 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		89B253FFC794119C2365997776451688 /* Pods-appCine-appCineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appCine-appCineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A3C3BE61FF76ACC9A81D18BF62295F1 /* Pods-appCineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appCineTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A8A06D88EEFD7E745C60C16AE595FD0 /* Pods-appCine-appCineUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appCine-appCineUITests-Info.plist"; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D2197CCDA90261DBB94907BDCA3C0B1 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		8F92E9EB92BAC80D1C5ED6065E243A87 /* Toaster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toaster-Info.plist"; sourceTree = "<group>"; };
+		8FA09E565A1F6C0303F951A258E02924 /* Pods-appCineTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-appCineTests"; path = Pods_appCineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EE7B35909474C1DBC6494B1BE6FABC /* Pods-appCine-appCineUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-appCine-appCineUITests.modulemap"; sourceTree = "<group>"; };
+		97EBAEC39A73D445EA0F67F5B2AFFB8F /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		9853CCF4F180EEFE06FA7F93724C82F5 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		98831E01BDF26795DDCC91C41C6C2270 /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardObserver.swift; path = Sources/KeyboardObserver.swift; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A11BF6BEC77AFB7321FBA7C898F04753 /* Pods-appCine */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-appCine"; path = Pods_appCine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A635172D31B037533F24E0B3C5E11D93 /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
+		A9FF17EF3D9B3F01417A4F7A0D5C67CC /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		AD2FBDCC19A25ECCE18D062EE55C1485 /* Pods-appCine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appCine-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9955EB20D472D4B9C80D8A7A8C88125 /* Pods-appCine-appCineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appCine-appCineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCDF47C80569054F087481161EC7E9C6 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		BCE5DDE4E29ED7C8DDC9C62F8A63F925 /* Pods-appCine-appCineUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appCine-appCineUITests-umbrella.h"; sourceTree = "<group>"; };
+		BD810337F4A305D60D9250A197AA1EF1 /* Toaster */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toaster; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AF4B1E755AACE5820C721771DE6B4F /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		C21588B232BB50A7F3006C04E1F6B28F /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
+		C38CA83CFF54D0AE9A890EC7B9C362BC /* Pods-appCineTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appCineTests-dummy.m"; sourceTree = "<group>"; };
+		C5927FCF0F140B4B96B210928570BF88 /* Pods-appCine-appCineUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appCine-appCineUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9952B85CC32CBB73629B2D7D4423B42 /* Pods-appCineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appCineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB463D13C3A96169B519E1DE1A8EC7A8 /* Pods-appCineTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appCineTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC09B65A6169424048159E9CDE058166 /* Pods-appCine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appCine.debug.xcconfig"; sourceTree = "<group>"; };
+		CC0E816A70F82C5E63D9FBAF54EDB7E4 /* Pods-appCine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appCine-Info.plist"; sourceTree = "<group>"; };
+		D2656CFCC77ADBD10022AF919E60D8A7 /* Toaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.release.xcconfig; sourceTree = "<group>"; };
+		D584C995ED8FBC7F026FF4C145AFB4C5 /* Pods-appCine-appCineUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-appCine-appCineUITests"; path = Pods_appCine_appCineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D18C6647DE0061097C5221CDAE7249 /* Pods-appCine-appCineUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appCine-appCineUITests-dummy.m"; sourceTree = "<group>"; };
+		D83C1FF8F83EAE499465B74105091968 /* Pods-appCine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appCine-umbrella.h"; sourceTree = "<group>"; };
+		DDC83E1EDB2802F5E04769A8109912C5 /* Pods-appCineTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-appCineTests.modulemap"; sourceTree = "<group>"; };
+		DF25748A3A913A6A8E849ACFD0DBCB4C /* Pods-appCineTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-appCineTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E84A4CE3FD42DE81B7CAC05066C07F43 /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
+		E984FC558715DF7581BBACAF8CE86DBF /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
+		ED2D9B76CBA07CAEFB0DD94C46404733 /* Toaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toaster.modulemap; sourceTree = "<group>"; };
+		F8F1E005E81916E7B770D9779D8A7303 /* Pods-appCineTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appCineTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36DE72BE72130187112210A3F70F06F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1999693D93F4DDC7F886C0BDA1C2264 /* Foundation.framework in Frameworks */,
+				7BEB5DF6A9013A89225CFE379E3CF089 /* QuartzCore.framework in Frameworks */,
+				134D6CCF6AC3A701E58597C8F7166349 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0DADAD23D4E2A1DE7267DB14DBC86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF37196672D2B54AEB1CC80CA31D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E6C796CC646B2323539A1E17CB0BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2622540124C242C673A58CEE78ADED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11CC4E6676EDDA141EA365D6EB0EAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074FE42FF8C09ACDE86DF323912D557A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		108C1F2EF753CF38F21D6F516CDF2659 /* Pods-appCine */ = {
+			isa = PBXGroup;
+			children = (
+				59CA0A05C6334CBEDBE12FD9C45E7E76 /* Pods-appCine.modulemap */,
+				22D2EDE3B7D23B1919FC9677BBE5B195 /* Pods-appCine-acknowledgements.markdown */,
+				AD2FBDCC19A25ECCE18D062EE55C1485 /* Pods-appCine-acknowledgements.plist */,
+				253B13302EE8353F25F19E226125A48C /* Pods-appCine-dummy.m */,
+				123AFA45D55FB8776B153ECE160965C3 /* Pods-appCine-frameworks.sh */,
+				CC0E816A70F82C5E63D9FBAF54EDB7E4 /* Pods-appCine-Info.plist */,
+				D83C1FF8F83EAE499465B74105091968 /* Pods-appCine-umbrella.h */,
+				CC09B65A6169424048159E9CDE058166 /* Pods-appCine.debug.xcconfig */,
+				09AE9EB43A2128C4BF02733D7021E85F /* Pods-appCine.release.xcconfig */,
+			);
+			name = "Pods-appCine";
+			path = "Target Support Files/Pods-appCine";
+			sourceTree = "<group>";
+		};
+		4C9AC9669CDC40F275C1DBF4DC47421D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC219E15112C53548D6BAC5BFAFE7C /* DropDown */,
+				77DE13C8A43602AEF883181565D68C38 /* Toaster */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7793110EF7756735BCB68F85D58EC96D /* Pods-appCineTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC83E1EDB2802F5E04769A8109912C5 /* Pods-appCineTests.modulemap */,
+				DF25748A3A913A6A8E849ACFD0DBCB4C /* Pods-appCineTests-acknowledgements.markdown */,
+				CB463D13C3A96169B519E1DE1A8EC7A8 /* Pods-appCineTests-acknowledgements.plist */,
+				C38CA83CFF54D0AE9A890EC7B9C362BC /* Pods-appCineTests-dummy.m */,
+				F8F1E005E81916E7B770D9779D8A7303 /* Pods-appCineTests-Info.plist */,
+				15419DD93989CFD8E47343B2A4783129 /* Pods-appCineTests-umbrella.h */,
+				C9952B85CC32CBB73629B2D7D4423B42 /* Pods-appCineTests.debug.xcconfig */,
+				8A3C3BE61FF76ACC9A81D18BF62295F1 /* Pods-appCineTests.release.xcconfig */,
+			);
+			name = "Pods-appCineTests";
+			path = "Target Support Files/Pods-appCineTests";
+			sourceTree = "<group>";
+		};
+		77DE13C8A43602AEF883181565D68C38 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				98831E01BDF26795DDCC91C41C6C2270 /* KeyboardObserver.swift */,
+				2515A17010ADF1E5CF97807556E31074 /* Toast.swift */,
+				5A1A454BD4C22999C0C347101BE57ADF /* ToastCenter.swift */,
+				E84A4CE3FD42DE81B7CAC05066C07F43 /* Toaster.h */,
+				C21588B232BB50A7F3006C04E1F6B28F /* ToastView.swift */,
+				A635172D31B037533F24E0B3C5E11D93 /* ToastWindow.swift */,
+				75DEF362C3492267E16C783A7A25E2D4 /* UIApplication+Load.swift */,
+				FEA31CA528B14F4403DDF4F3B7511573 /* Support Files */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		A1F50E9C27C856096DA016559489A984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				A11BF6BEC77AFB7321FBA7C898F04753 /* Pods-appCine */,
+				D584C995ED8FBC7F026FF4C145AFB4C5 /* Pods-appCine-appCineUITests */,
+				8FA09E565A1F6C0303F951A258E02924 /* Pods-appCineTests */,
+				BD810337F4A305D60D9250A197AA1EF1 /* Toaster */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53D8DED0B6EBF951F52B4D403A1453B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85A8DBB5D179FFCC1703D471F2C2AC81 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CC9609FD72AE93315293DDC28BE15807 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				108C1F2EF753CF38F21D6F516CDF2659 /* Pods-appCine */,
+				FD923574AA0A4147F0C457BE41B07FEE /* Pods-appCine-appCineUITests */,
+				7793110EF7756735BCB68F85D58EC96D /* Pods-appCineTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				4C9AC9669CDC40F275C1DBF4DC47421D /* Pods */,
+				A1F50E9C27C856096DA016559489A984 /* Products */,
+				CC9609FD72AE93315293DDC28BE15807 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1AC219E15112C53548D6BAC5BFAFE7C /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				43576D3041D257B3E5F5BE6501BBB9B0 /* DPDConstants.swift */,
+				A9FF17EF3D9B3F01417A4F7A0D5C67CC /* DPDKeyboardListener.swift */,
+				100907470BA8526022F576486AEC8B6D /* DPDUIView+Extension.swift */,
+				8D2197CCDA90261DBB94907BDCA3C0B1 /* DropDown.swift */,
+				9853CCF4F180EEFE06FA7F93724C82F5 /* DropDown+Appearance.swift */,
+				97EBAEC39A73D445EA0F67F5B2AFFB8F /* DropDownCell.swift */,
+				C53D8DED0B6EBF951F52B4D403A1453B /* Resources */,
+				FDBD89BDC07C2462A9A9C7E084FE58D4 /* Support Files */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		FD923574AA0A4147F0C457BE41B07FEE /* Pods-appCine-appCineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96EE7B35909474C1DBC6494B1BE6FABC /* Pods-appCine-appCineUITests.modulemap */,
+				303F27A98749F6C24C99385AE959C4CC /* Pods-appCine-appCineUITests-acknowledgements.markdown */,
+				C5927FCF0F140B4B96B210928570BF88 /* Pods-appCine-appCineUITests-acknowledgements.plist */,
+				D6D18C6647DE0061097C5221CDAE7249 /* Pods-appCine-appCineUITests-dummy.m */,
+				51AF53A540986257DFC37155DE70DB7C /* Pods-appCine-appCineUITests-frameworks.sh */,
+				8A8A06D88EEFD7E745C60C16AE595FD0 /* Pods-appCine-appCineUITests-Info.plist */,
+				BCE5DDE4E29ED7C8DDC9C62F8A63F925 /* Pods-appCine-appCineUITests-umbrella.h */,
+				B9955EB20D472D4B9C80D8A7A8C88125 /* Pods-appCine-appCineUITests.debug.xcconfig */,
+				89B253FFC794119C2365997776451688 /* Pods-appCine-appCineUITests.release.xcconfig */,
+			);
+			name = "Pods-appCine-appCineUITests";
+			path = "Target Support Files/Pods-appCine-appCineUITests";
+			sourceTree = "<group>";
+		};
+		FDBD89BDC07C2462A9A9C7E084FE58D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0AF4B1E755AACE5820C721771DE6B4F /* DropDown.modulemap */,
+				BCDF47C80569054F087481161EC7E9C6 /* DropDown-dummy.m */,
+				49796D0B0F3B1770345C0B3692B2028C /* DropDown-Info.plist */,
+				090FFFAC3E65B8C3ACCA2F7D9CFD2309 /* DropDown-prefix.pch */,
+				23E1B3CEEFB2BF2779C4B168B8DBC2BE /* DropDown-umbrella.h */,
+				384882EC9B557EDF69A41F3700D0A68F /* DropDown.debug.xcconfig */,
+				551BB848DAAB5B343CE6F3AEF67153B7 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		FEA31CA528B14F4403DDF4F3B7511573 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D9B76CBA07CAEFB0DD94C46404733 /* Toaster.modulemap */,
+				E984FC558715DF7581BBACAF8CE86DBF /* Toaster-dummy.m */,
+				8F92E9EB92BAC80D1C5ED6065E243A87 /* Toaster-Info.plist */,
+				5ADF0A882D623D4184BA293EFBCF6954 /* Toaster-prefix.pch */,
+				0C44C3CB902B5CD169645E5EF61DE925 /* Toaster-umbrella.h */,
+				304778E72A4B0E172EB978088BC81FD1 /* Toaster.debug.xcconfig */,
+				D2656CFCC77ADBD10022AF919E60D8A7 /* Toaster.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toaster";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8EC4423D6B8CD1683EBBF08B917C0E6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194C77EA1FBADEBAC108F2609F2FA16E /* Pods-appCineTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976C98883BC407F0DF403E78275BDA48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255EE1EA4B407101A1B37659D01D9EC5 /* Toaster.h in Headers */,
+				244F4A02905D8B8672286B4BCC5B7480 /* Toaster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A1109BB2EA50D4DFD2AE254F63B5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02F54279D7217673EAD54538C12BD92 /* Pods-appCine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE509ADFBFA530A5BC0C4861814D6B33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15CA3E5ABFCA57FBB7B5BDF2C9AB581 /* Pods-appCine-appCineUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26F863213EEE09A3ED3BD2F1E524D886 /* Pods-appCine-appCineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3615F2D721C73BB3962BF0AA0E8D41 /* Build configuration list for PBXNativeTarget "Pods-appCine-appCineUITests" */;
+			buildPhases = (
+				FE509ADFBFA530A5BC0C4861814D6B33 /* Headers */,
+				72DCA91AB53A126BD03986CCA9E91063 /* Sources */,
+				89E6C796CC646B2323539A1E17CB0BF9 /* Frameworks */,
+				A105F512E5453E2BEB57ABCAE71B15A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A124054F4ECAD2E06D0FE00F9D03033 /* PBXTargetDependency */,
+				B892101DA172A78C8099668AAC3C2519 /* PBXTargetDependency */,
+			);
+			name = "Pods-appCine-appCineUITests";
+			productName = Pods_appCine_appCineUITests;
+			productReference = D584C995ED8FBC7F026FF4C145AFB4C5 /* Pods-appCine-appCineUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A5AAC77290CDF29A8B0DCE9AF2F29F3 /* Pods-appCineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F624985A74D884E348552277356BA846 /* Build configuration list for PBXNativeTarget "Pods-appCineTests" */;
+			buildPhases = (
+				8EC4423D6B8CD1683EBBF08B917C0E6B /* Headers */,
+				BFFF7E38E907737E8F346032656FE5B8 /* Sources */,
+				4A0DADAD23D4E2A1DE7267DB14DBC86A /* Frameworks */,
+				B52D3BF39F6036ECEF6FF05F208D3F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E1EDF448273AE18B77705CBDF0D226 /* PBXTargetDependency */,
+			);
+			name = "Pods-appCineTests";
+			productName = Pods_appCineTests;
+			productReference = 8FA09E565A1F6C0303F951A258E02924 /* Pods-appCineTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE01F14FF611A2CA9FAD3E34F70BD70D /* Pods-appCine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D94C7DC063E1CBEB7183AE6F67FA564 /* Build configuration list for PBXNativeTarget "Pods-appCine" */;
+			buildPhases = (
+				EF6A1109BB2EA50D4DFD2AE254F63B5C /* Headers */,
+				6D5575E683D397ADF83B6F83513F9D55 /* Sources */,
+				A11CC4E6676EDDA141EA365D6EB0EAD5 /* Frameworks */,
+				D04DDA0742CFE835E4ED985488A4C6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC778452777426CA8970A1D36F70DAC2 /* PBXTargetDependency */,
+				7BA6C3AA1623F6058D918240876443E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-appCine";
+			productName = Pods_appCine;
+			productReference = A11BF6BEC77AFB7321FBA7C898F04753 /* Pods-appCine */;
+			productType = "com.apple.product-type.framework";
+		};
+		B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4D04EABFCE7005DAC66B1C7927A799 /* Build configuration list for PBXNativeTarget "Toaster" */;
+			buildPhases = (
+				976C98883BC407F0DF403E78275BDA48 /* Headers */,
+				9A28197B91FF8574DF19BEC49BB8FF3D /* Sources */,
+				36DE72BE72130187112210A3F70F06F3 /* Frameworks */,
+				71D00246BF5967380706E801E482AD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toaster;
+			productName = Toaster;
+			productReference = BD810337F4A305D60D9250A197AA1EF1 /* Toaster */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A1F50E9C27C856096DA016559489A984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				AE01F14FF611A2CA9FAD3E34F70BD70D /* Pods-appCine */,
+				26F863213EEE09A3ED3BD2F1E524D886 /* Pods-appCine-appCineUITests */,
+				6A5AAC77290CDF29A8B0DCE9AF2F29F3 /* Pods-appCineTests */,
+				B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71D00246BF5967380706E801E482AD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A105F512E5453E2BEB57ABCAE71B15A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52D3BF39F6036ECEF6FF05F208D3F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04DDA0742CFE835E4ED985488A4C6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5575E683D397ADF83B6F83513F9D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB777687DBB6C56C42626D947B7CA13D /* Pods-appCine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DCA91AB53A126BD03986CCA9E91063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708532A716F3103CBB1DBA0A324E9A9E /* Pods-appCine-appCineUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A28197B91FF8574DF19BEC49BB8FF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A682196864BF5EE4588D33F8C5677E08 /* KeyboardObserver.swift in Sources */,
+				FC4D85911918337A91079AD27B7DBF86 /* Toast.swift in Sources */,
+				9495D6DA43966022D607E6D0943C0ED4 /* ToastCenter.swift in Sources */,
+				5B1669A443DF76A2E4A8193D7ED3931D /* Toaster-dummy.m in Sources */,
+				4FBB681F30753274DB4B90BB49B20D78 /* ToastView.swift in Sources */,
+				49F044CFFA63A11EEC121B5BF1B6463B /* ToastWindow.swift in Sources */,
+				31F82636684655D2E9CE5E47ED123700 /* UIApplication+Load.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFF7E38E907737E8F346032656FE5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7751A83BE65AFEA39B2B02834C43B9 /* Pods-appCineTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A124054F4ECAD2E06D0FE00F9D03033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = F32879FAE93AEEF67D283F2574E1A009 /* PBXContainerItemProxy */;
+		};
+		68E1EDF448273AE18B77705CBDF0D226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-appCine";
+			target = AE01F14FF611A2CA9FAD3E34F70BD70D /* Pods-appCine */;
+			targetProxy = 3FE5F0E643F6CB6A26A51027488E499A /* PBXContainerItemProxy */;
+		};
+		7BA6C3AA1623F6058D918240876443E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */;
+			targetProxy = 4074D1717EFA6528BAF929A34513B67C /* PBXContainerItemProxy */;
+		};
+		B892101DA172A78C8099668AAC3C2519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */;
+			targetProxy = 85A24A7D2FF1D6D61A7F541FDF429936 /* PBXContainerItemProxy */;
+		};
+		FC778452777426CA8970A1D36F70DAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = BFD4D28B8BB8BD7E659B73B8CA50838E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BA545A9822C68CF9AE6749B2DEA346A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9952B85CC32CBB73629B2D7D4423B42 /* Pods-appCineTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-appCineTests/Pods-appCineTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appCineTests/Pods-appCineTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EB3EBABE12276FA5BE0EE8919332ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B253FFC794119C2365997776451688 /* Pods-appCine-appCineUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-appCine-appCineUITests/Pods-appCine-appCineUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appCine-appCineUITests/Pods-appCine-appCineUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3EA8E47159584B353087793DB378E0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AE9EB43A2128C4BF02733D7021E85F /* Pods-appCine.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-appCine/Pods-appCine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appCine/Pods-appCine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74D221252EE3E55BD415BF993409D54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9955EB20D472D4B9C80D8A7A8C88125 /* Pods-appCine-appCineUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-appCine-appCineUITests/Pods-appCine-appCineUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appCine-appCineUITests/Pods-appCine-appCineUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88B16CB4CB01AE37CB90CFAA0D350D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3C3BE61FF76ACC9A81D18BF62295F1 /* Pods-appCineTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-appCineTests/Pods-appCineTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appCineTests/Pods-appCineTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94B1A45DCE73B22DEB0C82B32E8B7D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC09B65A6169424048159E9CDE058166 /* Pods-appCine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-appCine/Pods-appCine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-appCine/Pods-appCine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0123A78646B9E3BEC9EF89FBBDCE4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2656CFCC77ADBD10022AF919E60D8A7 /* Toaster.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Toaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551BB848DAAB5B343CE6F3AEF67153B7 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384882EC9B557EDF69A41F3700D0A68F /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF3E2118BDB27C9E47BA8C0542205B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304778E72A4B0E172EB978088BC81FD1 /* Toaster.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Toaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D94C7DC063E1CBEB7183AE6F67FA564 /* Build configuration list for PBXNativeTarget "Pods-appCine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B1A45DCE73B22DEB0C82B32E8B7D82 /* Debug */,
+				3EA8E47159584B353087793DB378E0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3615F2D721C73BB3962BF0AA0E8D41 /* Build configuration list for PBXNativeTarget "Pods-appCine-appCineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D221252EE3E55BD415BF993409D54C /* Debug */,
+				2EB3EBABE12276FA5BE0EE8919332ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4D04EABFCE7005DAC66B1C7927A799 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3E2118BDB27C9E47BA8C0542205B6B /* Debug */,
+				C0123A78646B9E3BEC9EF89FBBDCE4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F624985A74D884E348552277356BA846 /* Build configuration list for PBXNativeTarget "Pods-appCineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA545A9822C68CF9AE6749B2DEA346A /* Debug */,
+				88B16CB4CB01AE37CB90CFAA0D350D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
